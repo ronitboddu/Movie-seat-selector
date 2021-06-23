@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    
+</head>
+<body>
+    <div class="container">
+    <div class="movie_selector">
+        <div id="pick_movie">Pick a movie:</div><span></span><span></span><span></span><span></span>
+        <button id="dropdown" class="dropbtn">Select a movie</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a>Avengers:Endgame ($10)</a>
+            <a>Joker ($12)</a>
+            <a>The Lion King ($9)</a>
+            <a>Toy Story 4 ($8)</a>
+        </div>
+    </div>
+    
+    <div class="index">
+        <div class="temp">
+            <div class="seats na" id="na"></div><span></span><span></span>
+            <div class="text">N/A</div>
+        </div>
+        <div class="temp">
+            <div class="seats selected" id="selected"></div><span></span><span></span>
+            <div class="text">Selected</div>
+        </div>
+        <div class="temp">
+            <div class="seats occupied" id="occupied"></div><span></span><span></span>
+            <div class="text">Occupied</div>
+        </div>
+        
+        
+    </div>
+    <div class="screen"></div>
+    <table class="seat_table">
+        
+        <tr>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+        </tr>
+        <tr>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+        </tr>
+        <tr>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+        </tr>
+        <tr>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+        </tr>
+        <tr>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+        </tr>
+        <tr>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+            <td class="seats" onclick="myfunction(event)"></td>
+        </tr>
+    </table>
+<p class="numbers" id="numbers"></p>
+</div>
+<script src='main.js'></script>
+
+</body>
+</html>
